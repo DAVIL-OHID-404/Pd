@@ -187,7 +187,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrkausar-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/DAVIL-OHID-404/Paid1/blob/main/Approved.txt").text
+	r1=requests.get("https://github.com/DAVIL-OHID-404/Pd/blob/main/Money.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
@@ -213,6 +213,6 @@ def Subscraption():
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ahsan+''+key1
-		os.system('am start http://youtube.com/@ohid_yt?text=' + tks)
+		os.system('am start http://facebook.com/davil.ohid.202?text=' + tks)
 		Subscraption()        
 Subscraption()
